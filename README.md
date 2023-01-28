@@ -24,4 +24,12 @@ title,url
 > python3 main.py data.csv {NUM_IMAGES_PER_STYLE}
 ```
 
+### Additional
+
+To check the meta-data of the image, you can run the `metadata.py` file, change the `imagename` variable accordingly.
+
+```python 
+> python3 metadata.py 
+```
+
 Images will be saved in the `/photos` folder. Happy scrapping :) 

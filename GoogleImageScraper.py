@@ -134,6 +134,7 @@ class GoogleImageScraper():
     def save_images(self,image_urls, keep_filenames):
         print(keep_filenames) 
         print("[INFO] Saving image, please wait...")
+        count_image = 1
         for indx,image_url in enumerate(image_urls):
             try:
                 print("[INFO] Image url:%s"%(image_url))
@@ -150,7 +151,8 @@ class GoogleImageScraper():
                                 name = os.path.splitext(os.path.basename(image_url))[0] 
                                 filename = "%s.%s"%(name,image_from_web.format.lower())
                             else:
-                                filename = "%s%s.%s"%(search_string,str(indx),image_from_web.format.lower())
+                                filename = "%s%s.%s"%(search_string,str(count_image),image_from_web.format.lower())
+                                count_image+=1
 
                             image_path = os.path.join(self.image_path, filename)
 

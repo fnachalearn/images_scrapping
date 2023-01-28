@@ -1,7 +1,7 @@
 from PIL import Image
 from PIL.ExifTags import TAGS
 
-imagename = "photos/cubism/cubism1.jpeg"
+imagename = "photos/art nouveau/artnouveau25.jpeg"
 
 image = Image.open(imagename)
 
