@@ -33,3 +33,6 @@ To check the meta-data of the image, you can run the `metadata.py` file, change 
 ```
 
 Images will be saved in the `/photos` folder. Happy scrapping :) 
+
+### References
+- [list of art movements](https://en.wikipedia.org/wiki/List_of_art_movements)
